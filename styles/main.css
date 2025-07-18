@@ -1,0 +1,329 @@
+/* import google font */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+/* shared styles */
+.col-punch {
+    color: #FD6E0A;
+}
+
+.col-dark1 {
+    color: #181818;
+}
+
+.col-dark2 {
+    color: #474747;
+}
+
+.col-dark3 {
+    color: #757575;
+}
+
+.col-dark4 {
+    color: #A3A3A3;
+}
+
+.col-bg {
+    background-color: #FFF8F3;
+}
+
+.btn-punch {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-normal {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 18px 36px;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-copy {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+}
+
+.to-center {
+    text-align: center;
+    align-items: center;
+}
+
+.hideme {
+    display: none;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 230px;
+    margin-bottom: 230px;
+}
+
+/* header styles */
+.header-area {
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    /* background-position: top left, bottom right; */
+    background-position: 10px 0, bottom right;
+}
+
+/* navigation styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 230px;
+}
+
+nav ul {
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav button:hover {
+    color: gold;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* hero styles */
+.hero-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left-block {
+    max-width: 585px;
+    max-height: 356px;
+    margin: 48px 38px 0 230px;
+}
+
+.hero-hi {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.hero-name {
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.hero-desc-block {
+    margin: 0 0 30px 0;
+    text-align: left;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-right-block {
+    width: 584px;
+    height: 676px;
+}
+
+/* aboutme styles */
+.aboutme-area {
+    background-color: #FFF8F3;
+    padding: 130px 156px;
+    border-radius: 10px;
+}
+
+.aboutme-columns {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutme-colname {
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.aboutme-colvalue {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* whatido styles */
+.whatido-copy {
+    margin: 0 100px;
+}
+
+.skillcard-wrapper {
+    margin: 50px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skillcard {
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-desc {
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* resume summary styles */
+.resume-subhead {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-wrapper {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.resume-block {
+    margin-top: 113px;
+}
+
+.edu-name,
+.job-name {
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.edu-dtls,
+.job-dtls {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.edu-note,
+.job-note {
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.resume-btn-block {
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* footer styles */
+.footer-area {
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-block {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    width: 100%;
+    color: #757575;
+    font-size: 16px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+}
+
+footer textarea {
+    height: 180px;
+}
+
+
+
+/* --------------- RESPONSIVE 576PX --------------- */
+@media screen and (max-width:576px) {
+
+    nav,
+    nav ul,
+    .skillcard-wrapper {
+        flex-direction: column;
+    }
+}
+
+/* --------------- RESPONSIVE 992PX --------------- */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .skillcard-wrapper {
+        flex-wrap: wrap;
+    }
+}
