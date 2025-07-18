@@ -77,6 +77,7 @@
     display: none;
 }
 
+
 /* main styles */
 main {
     max-width: 1140px;
@@ -132,13 +133,12 @@ nav button:hover {
 /* hero styles */
 .hero-area {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    max-height: 676px;
 }
 
 .hero-left-block {
     max-width: 585px;
-    max-height: 356px;
     margin: 48px 38px 0 230px;
 }
 
@@ -166,9 +166,8 @@ nav button:hover {
     gap: 30px;
 }
 
-.hero-right-block {
-    width: 584px;
-    height: 676px;
+.hero-image {
+    width: auto;
 }
 
 /* aboutme styles */
@@ -308,22 +307,5 @@ footer textarea {
     height: 180px;
 }
 
-
-
-/* --------------- RESPONSIVE 576PX --------------- */
-@media screen and (max-width:576px) {
-
-    nav,
-    nav ul,
-    .skillcard-wrapper {
-        flex-direction: column;
-    }
-}
-
-/* --------------- RESPONSIVE 992PX --------------- */
-@media screen and (min-width:576px) and (max-width:992px) {
-
-    .skillcard-wrapper {
-        flex-wrap: wrap;
-    }
-}
+/* ---------------*/
+/* Responsive CSS */
