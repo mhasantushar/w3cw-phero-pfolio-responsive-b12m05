@@ -70,13 +70,12 @@
 
 .to-center {
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .hideme {
     display: none;
 }
-
 
 /* main styles */
 main {
@@ -134,7 +133,8 @@ nav button:hover {
 .hero-area {
     display: flex;
     justify-content: space-between;
-    max-height: 676px;
+    align-items:center;
+    /* height: 676px; */
 }
 
 .hero-left-block {
@@ -166,8 +166,13 @@ nav button:hover {
     gap: 30px;
 }
 
+.hero-right-block {
+    display: flex;
+    align-items: flex-start;
+}
+
 .hero-image {
-    width: auto;
+    width: 584px;
 }
 
 /* aboutme styles */
@@ -315,9 +320,9 @@ footer textarea {
 @media screen and (max-width: 576px) {
 
     nav,
-    nav ul,
+    /* nav ul, */
     .hero-area,
-    .hero-buttons,
+    /* .hero-buttons, */
     .aboutme-columns,
     .skillcard-wrapper,
     .resume-wrapper,
