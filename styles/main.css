@@ -172,7 +172,7 @@ nav button:hover {
 }
 
 .hero-image {
-    width: 584px;
+    width: 100%;
 }
 
 /* aboutme styles */
@@ -320,9 +320,9 @@ footer textarea {
 @media screen and (max-width: 576px) {
 
     nav,
-    /* nav ul, */
+    nav ul,
     .hero-area,
-    /* .hero-buttons, */
+    .hero-buttons,
     .aboutme-columns,
     .skillcard-wrapper,
     .resume-wrapper,
