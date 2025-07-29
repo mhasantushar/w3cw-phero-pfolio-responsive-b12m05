@@ -354,10 +354,16 @@ footer textarea {
 }
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
 
     .skillcard-wrapper,
     .resume-wrapper {
+        display: flex;
         flex-wrap: wrap;
+
+    }
+
+    .skillcard {
+        flex:1 1 300px;
     }
 }
